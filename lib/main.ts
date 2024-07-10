@@ -8,6 +8,6 @@ export function setupCounter(element: HTMLButtonElement) {
   setCounter(0);
 }
 
-export function add(a: number, b: number) {
+export function add(a: number, b: number): number {
   return a + b
 }
